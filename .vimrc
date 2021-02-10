@@ -27,6 +27,7 @@ let $LANG = 'en' "set standard language as en_US.
 set langmenu=en "set menu language.
 set history=500 "set how many history lines.
 filetype off "helps force plug-ins to load correctly when it is turned back on below.
+filetype plugin on "enable plugins
 syntax on " Turn on syntax highlighting.
 set ruler "always show current position.
 set showmode "always show current mode.
@@ -45,6 +46,7 @@ set smartcase "include only uppercase words with uppercase search term.
 set lazyredraw "do not redraw while executing macros for performance.
 set magic "for regular expression (regex).
 set viminfo='100,<9999,s100
+set path+=** "add (**) to default path which enable search down into subfolder
 "=============================="
 
 
